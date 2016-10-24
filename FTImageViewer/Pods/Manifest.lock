@@ -1,0 +1,18 @@
+PODS:
+  - FTIndicator (1.1.5):
+    - FTIndicator/FTNotificationIndicator (= 1.1.5)
+    - FTIndicator/FTProgressIndicator (= 1.1.5)
+    - FTIndicator/FTToastIndicator (= 1.1.5)
+  - FTIndicator/FTNotificationIndicator (1.1.5)
+  - FTIndicator/FTProgressIndicator (1.1.5)
+  - FTIndicator/FTToastIndicator (1.1.5)
+
+DEPENDENCIES:
+  - FTIndicator
+
+SPEC CHECKSUMS:
+  FTIndicator: 8b9885b84340a19029ad13672add3bb8183feba8
+
+PODFILE CHECKSUM: 17fafb0159f43556391e36b7f2f6f1c4939c3464
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155429EE0833E57A023CF3DE7281109A /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F3E7C08AF7558312DCCEA26916614 /* FTIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		177826669355C7715A9FBA6C696C493B /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49907501B5F6B093F6AFA8D3863DC8D6 /* FTToastIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		499D68A77756EFD75B571AAE8F2FBDE3 /* Pods-FTIndicatorTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA539317930B9A7D2B412D61402986C /* Pods-FTIndicatorTest-dummy.m */; };
+		67A0968A7E2EAFA444BD0A35A6EB9801 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E42E5D97C3557C3F2BD46630161E5DC /* FTNotificationIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		6B771090CC629076AF2EAFC62A0F6678 /* FTToastIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ADB2EDE9CCCA03F7E54FE1B6E05891 /* FTToastIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7A1600C3FEEF584882AF6B8090BF74 /* FTNotificationIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F3144D7643CC07E8EB48843145296A /* FTNotificationIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DA673E40A1488D85234098F59DA6EE /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4204DAD62C7EE27870A8F7338D7C39F9 /* FTProgressIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		89B367325AB06854FC70F8C37FC9493C /* FTIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5F67CD900C4E132E444A0A91103449 /* FTIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D8EF00A8A3414EFB2B70CD4B8354482 /* FTIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAE623231B3653BACEBEA1DCA384ED /* FTIndicator-dummy.m */; };
+		961A581B5E409727A51B930012EA0A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A9EAB7BBF462E652D040C15EBE64220E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E11F5685C69DC31D310FFDDA6335DCDF /* FTProgressIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932E0548C810C9D242DB69925AA550A /* FTProgressIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF06017F2FA4E75435D46D33E28721FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E534BD0185F668A6527432B4941AFD5C;
+			remoteInfo = FTIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF6615D4BABCB45DDA07F5EB72FAA9E /* FTIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTIndicator.xcconfig; sourceTree = "<group>"; };
+		1E42E5D97C3557C3F2BD46630161E5DC /* FTNotificationIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTNotificationIndicator.m; path = FTIndicator/FTNotificationIndicator/FTNotificationIndicator.m; sourceTree = "<group>"; };
+		224F3E7C08AF7558312DCCEA26916614 /* FTIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTIndicator.m; path = FTIndicator/FTIndicator.m; sourceTree = "<group>"; };
+		2485EEE43EC435EA2BD576D039975721 /* Pods-FTIndicatorTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTIndicatorTest-resources.sh"; sourceTree = "<group>"; };
+		278444FAB9849D850174924052689F4A /* Pods-FTIndicatorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTIndicatorTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3B62E1F040AD0E1F0A452B9A96F9A265 /* Pods-FTIndicatorTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTIndicatorTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4204DAD62C7EE27870A8F7338D7C39F9 /* FTProgressIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTProgressIndicator.m; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.m; sourceTree = "<group>"; };
+		4932E0548C810C9D242DB69925AA550A /* FTProgressIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTProgressIndicator.h; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.h; sourceTree = "<group>"; };
+		49907501B5F6B093F6AFA8D3863DC8D6 /* FTToastIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTToastIndicator.m; path = FTIndicator/FTToastIndicator/FTToastIndicator.m; sourceTree = "<group>"; };
+		57AFA71D2B3F735E286D9E5D239061A7 /* Pods-FTIndicatorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTIndicatorTest.release.xcconfig"; sourceTree = "<group>"; };
+		696474BBA8C3CD235EB0E4712A470C01 /* FTIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTIndicator-prefix.pch"; sourceTree = "<group>"; };
+		6A7D4C5CE7A55D35777DA8B47DAC7A3C /* Pods-FTIndicatorTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTIndicatorTest-frameworks.sh"; sourceTree = "<group>"; };
+		6CA539317930B9A7D2B412D61402986C /* Pods-FTIndicatorTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTIndicatorTest-dummy.m"; sourceTree = "<group>"; };
+		72F3144D7643CC07E8EB48843145296A /* FTNotificationIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTNotificationIndicator.h; path = FTIndicator/FTNotificationIndicator/FTNotificationIndicator.h; sourceTree = "<group>"; };
+		764E8FBFFBAB681F3BB66E68CBE34B71 /* libFTIndicator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFTIndicator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ADB2EDE9CCCA03F7E54FE1B6E05891 /* FTToastIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTToastIndicator.h; path = FTIndicator/FTToastIndicator/FTToastIndicator.h; sourceTree = "<group>"; };
+		8A8E766C864437F88AB70BA31B0F681B /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FTProgressIndicator.bundle; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCAE623231B3653BACEBEA1DCA384ED /* FTIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTIndicator-dummy.m"; sourceTree = "<group>"; };
+		AE5F67CD900C4E132E444A0A91103449 /* FTIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTIndicator.h; path = FTIndicator/FTIndicator.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD88A4F28AB685C91D5F1B4F9BF08221 /* Pods-FTIndicatorTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTIndicatorTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF257441998F9437DAB0846D7EB33B03 /* libPods-FTIndicatorTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FTIndicatorTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828A3AF9E1A244E84FD27CBC6EE00CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961A581B5E409727A51B930012EA0A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97870D7263F7EEF533F1A3256E32D408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EAB7BBF462E652D040C15EBE64220E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A30A5A6EA95CAEE38A39730932C2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764E8FBFFBAB681F3BB66E68CBE34B71 /* libFTIndicator.a */,
+				FF257441998F9437DAB0846D7EB33B03 /* libPods-FTIndicatorTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2208757F9CDC3D2F52D743AB1D5B2739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83490BA87DD2C2FCDAEFD44DCF5AB928 /* FTIndicator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26E7168A504132228F0B2AFDA26FA107 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E6A68936E67EB83F6D019F34DC9E9CF /* Pods-FTIndicatorTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37F211DF93A248E5C21800F207636FE3 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		4E4281334B1C8523489B3CD65ACA8F8E /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C67C67B0A58AF2426AAD865334CB093C /* Resources */,
+			);
+			name = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		5E6A68936E67EB83F6D019F34DC9E9CF /* Pods-FTIndicatorTest */ = {
+			isa = PBXGroup;
+			children = (
+				3B62E1F040AD0E1F0A452B9A96F9A265 /* Pods-FTIndicatorTest-acknowledgements.markdown */,
+				CD88A4F28AB685C91D5F1B4F9BF08221 /* Pods-FTIndicatorTest-acknowledgements.plist */,
+				6CA539317930B9A7D2B412D61402986C /* Pods-FTIndicatorTest-dummy.m */,
+				6A7D4C5CE7A55D35777DA8B47DAC7A3C /* Pods-FTIndicatorTest-frameworks.sh */,
+				2485EEE43EC435EA2BD576D039975721 /* Pods-FTIndicatorTest-resources.sh */,
+				278444FAB9849D850174924052689F4A /* Pods-FTIndicatorTest.debug.xcconfig */,
+				57AFA71D2B3F735E286D9E5D239061A7 /* Pods-FTIndicatorTest.release.xcconfig */,
+			);
+			name = "Pods-FTIndicatorTest";
+			path = "Target Support Files/Pods-FTIndicatorTest";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2208757F9CDC3D2F52D743AB1D5B2739 /* Pods */,
+				02A30A5A6EA95CAEE38A39730932C2B0 /* Products */,
+				26E7168A504132228F0B2AFDA26FA107 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83490BA87DD2C2FCDAEFD44DCF5AB928 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F67CD900C4E132E444A0A91103449 /* FTIndicator.h */,
+				224F3E7C08AF7558312DCCEA26916614 /* FTIndicator.m */,
+				72F3144D7643CC07E8EB48843145296A /* FTNotificationIndicator.h */,
+				1E42E5D97C3557C3F2BD46630161E5DC /* FTNotificationIndicator.m */,
+				4932E0548C810C9D242DB69925AA550A /* FTProgressIndicator.h */,
+				4204DAD62C7EE27870A8F7338D7C39F9 /* FTProgressIndicator.m */,
+				82ADB2EDE9CCCA03F7E54FE1B6E05891 /* FTToastIndicator.h */,
+				49907501B5F6B093F6AFA8D3863DC8D6 /* FTToastIndicator.m */,
+				E667B4EBB7F5042105689122C98D75AB /* FTNotificationIndicator */,
+				4E4281334B1C8523489B3CD65ACA8F8E /* FTProgressIndicator */,
+				37F211DF93A248E5C21800F207636FE3 /* FTToastIndicator */,
+				F8439ACA2FADA57E980D220B1180AAFC /* Resources */,
+				DD57CC346FC1B681D85693A8B93AE59C /* Support Files */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67C67B0A58AF2426AAD865334CB093C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD57CC346FC1B681D85693A8B93AE59C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF6615D4BABCB45DDA07F5EB72FAA9E /* FTIndicator.xcconfig */,
+				9DCAE623231B3653BACEBEA1DCA384ED /* FTIndicator-dummy.m */,
+				696474BBA8C3CD235EB0E4712A470C01 /* FTIndicator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FTIndicator";
+			sourceTree = "<group>";
+		};
+		E667B4EBB7F5042105689122C98D75AB /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		F8439ACA2FADA57E980D220B1180AAFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E766C864437F88AB70BA31B0F681B /* FTProgressIndicator.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		203A08ED5E5617C8D066C6D18122D2A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B367325AB06854FC70F8C37FC9493C /* FTIndicator.h in Headers */,
+				6D7A1600C3FEEF584882AF6B8090BF74 /* FTNotificationIndicator.h in Headers */,
+				E11F5685C69DC31D310FFDDA6335DCDF /* FTProgressIndicator.h in Headers */,
+				6B771090CC629076AF2EAFC62A0F6678 /* FTToastIndicator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D1784644CF436958A9A50E27D70D07B5 /* Pods-FTIndicatorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E614A75B71DF8832E452048D018CEF /* Build configuration list for PBXNativeTarget "Pods-FTIndicatorTest" */;
+			buildPhases = (
+				88DC5D920AAB9D0C382269E4429C4CA9 /* Sources */,
+				97870D7263F7EEF533F1A3256E32D408 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF27D54487FF13CD770AED6893D0735 /* PBXTargetDependency */,
+			);
+			name = "Pods-FTIndicatorTest";
+			productName = "Pods-FTIndicatorTest";
+			productReference = FF257441998F9437DAB0846D7EB33B03 /* libPods-FTIndicatorTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E534BD0185F668A6527432B4941AFD5C /* FTIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895A7D1F1987ED11FFAAE5CAB6B80A77 /* Build configuration list for PBXNativeTarget "FTIndicator" */;
+			buildPhases = (
+				C3793BB830A0DF851F3A569169310A9A /* Sources */,
+				828A3AF9E1A244E84FD27CBC6EE00CA0 /* Frameworks */,
+				203A08ED5E5617C8D066C6D18122D2A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTIndicator;
+			productName = FTIndicator;
+			productReference = 764E8FBFFBAB681F3BB66E68CBE34B71 /* libFTIndicator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 02A30A5A6EA95CAEE38A39730932C2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E534BD0185F668A6527432B4941AFD5C /* FTIndicator */,
+				D1784644CF436958A9A50E27D70D07B5 /* Pods-FTIndicatorTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DC5D920AAB9D0C382269E4429C4CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499D68A77756EFD75B571AAE8F2FBDE3 /* Pods-FTIndicatorTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3793BB830A0DF851F3A569169310A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8EF00A8A3414EFB2B70CD4B8354482 /* FTIndicator-dummy.m in Sources */,
+				155429EE0833E57A023CF3DE7281109A /* FTIndicator.m in Sources */,
+				67A0968A7E2EAFA444BD0A35A6EB9801 /* FTNotificationIndicator.m in Sources */,
+				81DA673E40A1488D85234098F59DA6EE /* FTProgressIndicator.m in Sources */,
+				177826669355C7715A9FBA6C696C493B /* FTToastIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EF27D54487FF13CD770AED6893D0735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTIndicator;
+			target = E534BD0185F668A6527432B4941AFD5C /* FTIndicator */;
+			targetProxy = BF06017F2FA4E75435D46D33E28721FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		122DD662EB82273FC10727B77E96D6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AFA71D2B3F735E286D9E5D239061A7 /* Pods-FTIndicatorTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B7FF6D2D61F94E6C32C01D7B1BC3B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278444FAB9849D850174924052689F4A /* Pods-FTIndicatorTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF509FCB9F4EB390875C0567B8676A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF6615D4BABCB45DDA07F5EB72FAA9E /* FTIndicator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTIndicator/FTIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB0CF0CE6865E8B792427157B673C613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF6615D4BABCB45DDA07F5EB72FAA9E /* FTIndicator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTIndicator/FTIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E614A75B71DF8832E452048D018CEF /* Build configuration list for PBXNativeTarget "Pods-FTIndicatorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7FF6D2D61F94E6C32C01D7B1BC3B2D /* Debug */,
+				122DD662EB82273FC10727B77E96D6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895A7D1F1987ED11FFAAE5CAB6B80A77 /* Build configuration list for PBXNativeTarget "FTIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF509FCB9F4EB390875C0567B8676A7E /* Debug */,
+				CB0CF0CE6865E8B792427157B673C613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
