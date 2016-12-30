@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4209FAA6064429DA90569AEC33ED321538EFD97D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7FD6F53185C2FCC98D2BA0104DF7DF3440C82848" : 9223372036854775807,
+    "4209FAA6064429DA90569AEC33ED321538EFD97D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AD4A32E4-0691-422B-9F3C-D7C817ABBC8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7FD6F53185C2FCC98D2BA0104DF7DF3440C82848" : "FTZoomTransition\/",
+    "4209FAA6064429DA90569AEC33ED321538EFD97D" : "FTPodTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FTTestCarthage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FTTestCarthage\/FTTestCarthage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liufengting\/FTPodTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4209FAA6064429DA90569AEC33ED321538EFD97D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liufengting\/FTZoomTransition.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7FD6F53185C2FCC98D2BA0104DF7DF3440C82848"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:FTCarthageSupport.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/FTZoomTransition/FTZoomTransition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/FTZoomTransition/../FTPopOverMenu_Swift/FTPopOverMenu_Swift.xcodeproj">
+   </FileRef>
+</Workspace>
