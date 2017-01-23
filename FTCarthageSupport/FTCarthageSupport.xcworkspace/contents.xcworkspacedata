@@ -10,4 +10,10 @@
    <FileRef
       location = "group:Carthage/Checkouts/FTZoomTransition/../FTPopOverMenu_Swift/FTPopOverMenu_Swift.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Kingfisher/Kingfisher.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/FTImageViewer/FTImageViewer.xcodeproj">
+   </FileRef>
 </Workspace>

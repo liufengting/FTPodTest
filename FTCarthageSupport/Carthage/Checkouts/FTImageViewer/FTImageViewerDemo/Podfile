@@ -1,0 +1,5 @@
+
+target 'FTImageViewerDemo' do
+pod 'Kingfisher'
+use_frameworks!
+end

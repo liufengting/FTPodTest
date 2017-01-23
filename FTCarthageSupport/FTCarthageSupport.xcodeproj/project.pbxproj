@@ -13,6 +13,7 @@
 		2AACE4441E10B7360082E402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AACE4421E10B7360082E402 /* Main.storyboard */; };
 		2AACE4461E10B7360082E402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AACE4451E10B7360082E402 /* Assets.xcassets */; };
 		2AACE4491E10B7360082E402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AACE4471E10B7360082E402 /* LaunchScreen.storyboard */; };
+		2AC8D24F1E30C34300F4BDAC /* FTImageViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC8D24E1E30C34300F4BDAC /* FTImageViewer.framework */; };
 		2AC914D21E10B8E000097B63 /* FTPopOverMenu_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC914D11E10B8E000097B63 /* FTPopOverMenu_Swift.framework */; };
 		2AC914D41E10B8E400097B63 /* FTZoomTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC914D31E10B8E400097B63 /* FTZoomTransition.framework */; };
 /* End PBXBuildFile section */
@@ -26,8 +27,10 @@
 		2AACE4451E10B7360082E402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AACE4481E10B7360082E402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AACE44A1E10B7360082E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC8D24E1E30C34300F4BDAC /* FTImageViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FTImageViewer.framework; path = "Carthage/Checkouts/FTImageViewer/build/Debug-iphoneos/FTImageViewer.framework"; sourceTree = "<group>"; };
 		2AC914D11E10B8E000097B63 /* FTPopOverMenu_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FTPopOverMenu_Swift.framework; path = "Carthage/Checkouts/FTPopOverMenu_Swift/build/Debug-iphoneos/FTPopOverMenu_Swift.framework"; sourceTree = "<group>"; };
 		2AC914D31E10B8E400097B63 /* FTZoomTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FTZoomTransition.framework; path = "Carthage/Checkouts/FTZoomTransition/build/Debug-iphoneos/FTZoomTransition.framework"; sourceTree = "<group>"; };
+		2ADB1E701E35EC00007082A4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Carthage/Checkouts/Kingfisher/build/Debug-iphoneos/Kingfisher.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC8D24F1E30C34300F4BDAC /* FTImageViewer.framework in Frameworks */,
 				2AC914D41E10B8E400097B63 /* FTZoomTransition.framework in Frameworks */,
 				2AC914D21E10B8E000097B63 /* FTPopOverMenu_Swift.framework in Frameworks */,
 			);
@@ -77,6 +81,8 @@
 		2AC914D01E10B8E000097B63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2ADB1E701E35EC00007082A4 /* Kingfisher.framework */,
+				2AC8D24E1E30C34300F4BDAC /* FTImageViewer.framework */,
 				2AC914D31E10B8E400097B63 /* FTZoomTransition.framework */,
 				2AC914D11E10B8E000097B63 /* FTPopOverMenu_Swift.framework */,
 			);
@@ -284,6 +290,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Checkouts/FTPopOverMenu_Swift/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/FTZoomTransition/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/FTImageViewer/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Kingfisher/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = FTCarthageSupport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +310,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Checkouts/FTPopOverMenu_Swift/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/FTZoomTransition/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/FTImageViewer/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Kingfisher/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = FTCarthageSupport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

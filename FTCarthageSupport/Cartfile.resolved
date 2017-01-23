@@ -1,2 +1,4 @@
-github "liufengting/FTPopOverMenu_Swift" "0.0.5"
+github "liufengting/FTPopOverMenu_Swift" "0.0.6"
 github "liufengting/FTZoomTransition" "0.0.8"
+github "onevcat/Kingfisher" "3.3.1"
+github "liufengting/FTImageViewer" "2.0.4"
